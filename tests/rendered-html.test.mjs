@@ -56,7 +56,7 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
   assert.equal(zhAgents.filter((name) => name.endsWith(".md")).length, 7);
   assert.equal(enAgents.filter((name) => name.endsWith(".md")).length, 7);
   assert.ok(images.length >= 8);
-  assert.equal(operationImages.filter((name) => name.endsWith(".png")).length, 12);
+  assert.equal(operationImages.filter((name) => name.endsWith(".png")).length, 13);
 
   const visualGuides = [
     "docs/quickstart.md",
@@ -121,6 +121,8 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
   assert.match(ccSwitchGuide, /ccswitch:\/\//);
   assert.match(billingGuide, /标准费用[\s\S]*实际费用/);
   assert.match(billingGuide, /1,000,000/);
+  assert.match(billingGuide, /\/images\/oproxy-steps\/subscription-plans\.png/);
+  assert.doesNotMatch(billingGuide, /\/images\/oproxy-steps\/model-pricing\.png/);
 });
 
 test("keeps the mirror reproducible and removes starter artifacts", async () => {

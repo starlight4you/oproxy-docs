@@ -39,9 +39,9 @@ Open **Recharge / Subscribe**, switch to **Recharge**, choose or enter an amount
 
 Plans show a 30-day price, discount, multiplier, concurrency/RPM boosts, and daily, weekly, and monthly limits. Check the live page before buying. **My Subscriptions** shows status, expiration, and quota use; expired historical cards are not active benefits.
 
-![Live model pricing and group information](/images/oproxy-steps/model-pricing.png)
+![Subscription plan cards on Recharge and Subscribe](/images/oproxy-steps/subscription-plans.png)
 
-*Figure: Check current model prices, providers, and groups before purchasing.*
+*Figure: The subscription page shows price, term, discount, concurrency/RPM benefits, and daily, weekly, and monthly limits. Use the live purchase page for current values.*
 
 ## Quota, RPM, and concurrency
 
