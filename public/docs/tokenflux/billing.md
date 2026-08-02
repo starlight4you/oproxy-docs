@@ -46,7 +46,7 @@ Oproxy 同时提供按量余额和订阅套餐。价格、折扣、限额与模�
 
 ## 订阅套餐
 
-订阅页显示套餐价格、30 天周期、折扣、倍率、并发/RPM 增强，以及日、周、月限额。可售方案可能包括试试水、Lite、Pro、Coding-Lite、Coding-Pro、Coding-Max、Coding-Ultra 和并发数增强包，具体以页面为准。
+订阅页显示套餐价格、30 天周期、折扣、倍率、并发/RPM 增强，以及日、周、月限额。可售方案包括“试试水”、Lite、Pro、Coding-Lite、Coding-Pro、Coding-Max、Coding-Ultra 和并发数增强包，具体以页面为准。
 
 订阅余额可获得折扣，但仍按模型调用消耗；先根据历史使用记录估算需求。
 
