@@ -61,4 +61,4 @@ OpenCode 可以分别配置 OpenAI 与 Anthropic Provider。
 
 ![使用记录筛选栏](/images/oproxy-steps/usage-filters.png)
 
-*图：分别按 OpenAI 与 Claude 专用 Key 检查请求，便于排错和审计。*
+*图：分别按 OpenAI 与 Claude 配置中使用的 API Key 检查请求，便于排错和审计。*

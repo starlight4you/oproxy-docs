@@ -6,7 +6,7 @@
 
 1. Install CC Switch from the [official releases](https://github.com/farion1231/cc-switch/releases). On macOS, you can also run `brew install --cask cc-switch`.
 2. Install the agent you want to connect.
-3. Create an agent-specific Oproxy key in a group that contains the target model.
+3. Create or select an Oproxy API key in a group that contains the target model.
 4. Close the running agent so it does not continue using an old configuration.
 
 ::: warning Use official downloads only
@@ -17,7 +17,7 @@ CC Switch recommends downloading only from `ccswitch.io`, GitHub Releases, or th
 
 If the Oproxy API Keys page provides **Import to CCS**:
 
-1. Select **Import to CCS** for the agent-specific key.
+1. Select **Import to CCS** for the API key you want the agent to use.
 2. The browser opens a `ccswitch://` link and launches CC Switch.
 3. Check the target app, provider name, endpoint, and masked key in the confirmation dialog.
 4. Confirm the import.
@@ -67,13 +67,13 @@ You can also switch quickly from the CC Switch system-tray menu.
 ## Verify
 
 1. Start the agent and send a short request without tools.
-2. Filter Oproxy [Usage](https://oproxy.world/usage) by the dedicated key and request time.
+2. Filter Oproxy [Usage](https://oproxy.world/usage) by the API key configured in CC Switch and the request time.
 3. Check the model, endpoint, request type, cost, and User-Agent.
 4. Test tools, images, and long context only after the basic request succeeds.
 
 ![Usage filters](/images/oproxy-steps/usage-filters.png)
 
-*Figure: Filter by the agent-specific key and time range to confirm that CC Switch selected Oproxy.*
+*Figure: Filter by the API key configured in CC Switch and the time range to confirm that Oproxy is active.*
 
 ## Troubleshooting and safety
 
@@ -81,6 +81,6 @@ You can also switch quickly from the CC Switch system-tray menu.
 - For model-not-found errors, verify the exact model ID and key group. See [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html).
 - To restore official access, enable the agent's **Official Login** provider and restart the client.
 - Database-backup import overwrites the current CC Switch database; export a backup first.
-- Use one Oproxy key per agent, keep exports out of public repositories, and disable a leaked key before replacing the provider configuration.
+- If you need separate limits or revocation, use different Oproxy keys for different agents. Keep exports out of public repositories, and disable a leaked key before replacing the provider configuration.
 
 See the [official CC Switch user manual](https://github.com/farion1231/cc-switch/tree/main/docs/user-manual/en) for current interface details.

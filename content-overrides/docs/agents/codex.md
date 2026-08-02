@@ -60,7 +60,7 @@ responses_websockets_v2 = true
 
 ![使用记录页面的 Key 和日期筛选栏](/images/oproxy-steps/usage-filters.png)
 
-*图：按 Codex 专用 Key 筛选，核对 Responses 请求的时间和端点。*
+*图：按 Codex 配置中使用的 API Key 筛选，核对 Responses 请求的时间和端点。*
 
 ::: warning Key 安全
 `auth.json` 包含完整密钥。限制文件权限，不要提交到 Git，也不要复制到问题截图中。

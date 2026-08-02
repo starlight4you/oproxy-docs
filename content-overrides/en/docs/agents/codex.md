@@ -27,4 +27,4 @@ Restart Codex and send a minimal request. Verify `/v1/responses` in Oproxy Usage
 
 ![Usage filters](/images/oproxy-steps/usage-filters.png)
 
-*Figure: Filter by the Codex key and request time to confirm a Responses request.*
+*Figure: Filter by the API key used in Codex and the request time to confirm a Responses request.*

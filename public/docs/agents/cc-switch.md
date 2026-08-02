@@ -6,7 +6,7 @@
 
 1. 从 [CC Switch 官方发布页](https://github.com/farion1231/cc-switch/releases) 下载并安装应用。macOS 也可以使用 `brew install --cask cc-switch`。
 2. 安装需要接入的 Agent，例如 Claude Code、Codex、OpenCode 或 Hermes。
-3. 在 Oproxy 创建一个 Agent 专用 API Key，并选择包含目标模型的分组。
+3. 在 Oproxy 创建或选择一个 API Key，并确认其分组包含目标模型。
 4. 关闭正在运行的 Agent，避免旧进程继续读取旧配置。
 
 ::: warning 只使用官方安装包
@@ -71,13 +71,13 @@ CC Switch 的普通 Base URL 会由应用补充请求路径。只有 Provider �
 ## 验证接入
 
 1. 启动 Agent，发送一个不调用工具的简短请求。
-2. 在 Oproxy [使用记录](https://oproxy.world/usage) 中选择该专用 Key 和请求时间。
+2. 在 Oproxy [使用记录](https://oproxy.world/usage) 中选择 CC Switch 配置中使用的 API Key 和请求时间。
 3. 核对模型、端点、请求类型、费用和 User-Agent。
 4. 基础请求成功后，再测试工具调用、图片或长上下文。
 
 ![使用记录筛选栏](/images/oproxy-steps/usage-filters.png)
 
-*图：按 Agent 专用 Key 和时间范围筛选，确认 CC Switch 已切换到 Oproxy。*
+*图：按 CC Switch 配置中使用的 API Key 和时间范围筛选，确认已经切换到 Oproxy。*
 
 ## 常见问题
 
@@ -99,7 +99,7 @@ CC Switch 的普通 Base URL 会由应用补充请求路径。只有 Provider �
 
 ## 安全建议
 
-- 每个 Agent 使用独立 Oproxy Key，并设置额度和有效期。
+- 如需分别控制额度或停用权限，可以为不同 Agent 使用不同的 Oproxy Key，并按需设置额度和有效期。
 - 不要把 CC Switch 数据库、配置导出或完整 Key 上传到公开仓库。
 - 云同步 CC Switch 配置前，确认同步目录和访问权限可信。
 - Key 泄露时先在 Oproxy 禁用，再替换 CC Switch 中的 Provider 配置。

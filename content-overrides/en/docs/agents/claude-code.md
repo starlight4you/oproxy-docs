@@ -4,7 +4,7 @@ Create a key in the Claude group, then set:
 
 ![Create key dialog with groups and limits](/images/oproxy-steps/create-key-dialog.png)
 
-*Figure: Create a dedicated Claude Code key and add a spending limit or expiration when appropriate.*
+*Figure: Select or create a Claude-group API key and add a spending limit or expiration when appropriate.*
 
 ```bash
 export ANTHROPIC_BASE_URL="https://api.oproxy.world"
@@ -29,4 +29,4 @@ Restart the terminal, editor, and Claude Code. A successful request should appea
 
 ![Usage filters](/images/oproxy-steps/usage-filters.png)
 
-*Figure: Filter by the Claude Code key and request time to verify the call.*
+*Figure: Filter by the API key used in Claude Code and the request time to verify the call.*

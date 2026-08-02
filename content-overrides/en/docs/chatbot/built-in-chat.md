@@ -25,7 +25,7 @@ Sign in to Oproxy and select [Chat / Agent Applications](https://oproxy.world/ap
 
 ## Before use
 
-- Use a dedicated API key with a spending limit and expiration.
+- Use an API key with a spending limit and expiration when appropriate.
 - Never paste a complete API key into a conversation, screenshot, or support ticket.
 - Read the privacy, cross-border transfer, and content-safety notices before processing sensitive content.
 - If the page does not open, check console announcements and Model Monitoring before contacting support.

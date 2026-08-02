@@ -62,4 +62,4 @@ $env:CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 
 ![使用记录页面的筛选操作](/images/oproxy-steps/usage-filters.png)
 
-*图：选择 Claude Code 专用 Key 和请求时间段后刷新记录。*
+*图：选择 Claude Code 配置中使用的 API Key 和请求时间段后刷新记录。*
