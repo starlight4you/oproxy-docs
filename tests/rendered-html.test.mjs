@@ -36,9 +36,9 @@ test("server-renders the Oproxy Docs shell", async () => {
 
 test("contains the complete bilingual Oproxy Markdown collection", async () => {
   const index = JSON.parse(await readFile(new URL("site-index.json", publicRoot), "utf8"));
-  assert.equal(index.pages.length, 54);
-  assert.equal(index.pages.filter((page) => page.lang === "zh").length, 27);
-  assert.equal(index.pages.filter((page) => page.lang === "en").length, 27);
+  assert.equal(index.pages.length, 48);
+  assert.equal(index.pages.filter((page) => page.lang === "zh").length, 24);
+  assert.equal(index.pages.filter((page) => page.lang === "en").length, 24);
 
   for (const page of index.pages) {
     await access(new URL(page.source.slice(1), publicRoot));
@@ -53,8 +53,8 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
     readdir(new URL("images/", publicRoot)),
     readdir(new URL("images/oproxy-steps/", publicRoot)),
   ]);
-  assert.equal(zhAgents.filter((name) => name.endsWith(".md")).length, 7);
-  assert.equal(enAgents.filter((name) => name.endsWith(".md")).length, 7);
+  assert.equal(zhAgents.filter((name) => name.endsWith(".md")).length, 4);
+  assert.equal(enAgents.filter((name) => name.endsWith(".md")).length, 4);
   assert.ok(images.length >= 8);
   assert.equal(operationImages.filter((name) => name.endsWith(".png")).length, 13);
 
@@ -73,9 +73,6 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
     "docs/agents/claude-code.md",
     "docs/agents/codex.md",
     "docs/agents/opencode.md",
-    "docs/agents/hermes.md",
-    "docs/agents/workbuddy.md",
-    "docs/agents/codex-plus-plus.md",
     "docs/chatbot/cherry-studio.md",
     "docs/chatbot/rikkahub.md",
   ];

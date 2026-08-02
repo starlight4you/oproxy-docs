@@ -17,9 +17,6 @@
   <url><loc>http://localhost:3000/docs/agents/claude-code.md</loc></url>
   <url><loc>http://localhost:3000/docs/agents/codex.md</loc></url>
   <url><loc>http://localhost:3000/docs/agents/opencode.md</loc></url>
-  <url><loc>http://localhost:3000/docs/agents/hermes.md</loc></url>
-  <url><loc>http://localhost:3000/docs/agents/workbuddy.md</loc></url>
-  <url><loc>http://localhost:3000/docs/agents/codex-plus-plus.md</loc></url>
   <url><loc>http://localhost:3000/docs/chatbot/cherry-studio.md</loc></url>
   <url><loc>http://localhost:3000/docs/chatbot/rikkahub.md</loc></url>
   <url><loc>http://localhost:3000/docs/tos/service-terms.md</loc></url>
@@ -44,9 +41,6 @@
   <url><loc>http://localhost:3000/en/docs/agents/claude-code.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/agents/codex.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/agents/opencode.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/agents/hermes.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/agents/workbuddy.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/agents/codex-plus-plus.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/chatbot/cherry-studio.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/chatbot/rikkahub.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tos/service-terms.md</loc></url>
