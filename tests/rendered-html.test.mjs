@@ -36,9 +36,9 @@ test("server-renders the Oproxy Docs shell", async () => {
 
 test("contains the complete bilingual Oproxy Markdown collection", async () => {
   const index = JSON.parse(await readFile(new URL("site-index.json", publicRoot), "utf8"));
-  assert.equal(index.pages.length, 52);
-  assert.equal(index.pages.filter((page) => page.lang === "zh").length, 26);
-  assert.equal(index.pages.filter((page) => page.lang === "en").length, 26);
+  assert.equal(index.pages.length, 54);
+  assert.equal(index.pages.filter((page) => page.lang === "zh").length, 27);
+  assert.equal(index.pages.filter((page) => page.lang === "en").length, 27);
 
   for (const page of index.pages) {
     await access(new URL(page.source.slice(1), publicRoot));
@@ -64,6 +64,7 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
     "docs/tokenflux/endpoints.md",
     "docs/tokenflux/composite-key.md",
     "docs/tokenflux/fast-mode.md",
+    "docs/tokenflux/error-codes.md",
     "docs/tokenflux/billing.md",
     "docs/tokenflux/invoice.md",
     "docs/tokenflux/team.md",
@@ -107,6 +108,19 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
   assert.match(campusTerms, /更新日期：2026-07-30/);
   assert.match(campusTerms, /校园大使计划不包含多级返现/);
   assert.doesNotMatch(campusTerms, /^# 邀请返利/m);
+
+  const [errorGuide, ccSwitchGuide, billingGuide] = await Promise.all([
+    readFile(new URL("docs/tokenflux/error-codes.md", publicRoot), "utf8"),
+    readFile(new URL("docs/agents/cc-switch.md", publicRoot), "utf8"),
+    readFile(new URL("docs/tokenflux/billing.md", publicRoot), "utf8"),
+  ]);
+  assert.match(errorGuide, /429[\s\S]*RPM/);
+  assert.match(errorGuide, /503[\s\S]*模型监控/);
+  assert.match(errorGuide, /审核或封禁/);
+  assert.match(ccSwitchGuide, /CC Switch[\s\S]*导入到 CCS/);
+  assert.match(ccSwitchGuide, /ccswitch:\/\//);
+  assert.match(billingGuide, /标准费用[\s\S]*实际费用/);
+  assert.match(billingGuide, /1,000,000/);
 });
 
 test("keeps the mirror reproducible and removes starter artifacts", async () => {

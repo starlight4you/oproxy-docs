@@ -11,6 +11,9 @@ This local Oproxy help center covers registration, API keys, endpoints, models, 
 | Choose the right Base URL | [API Endpoints and Protocols](/en/docs/tokenflux/endpoints.html) |
 | Connect Codex, Claude Code, or OpenCode | [Coding tools](/en/docs/agents/codex.html) |
 | Review usage and availability | [Dashboard, Monitoring, and Usage](/en/docs/tokenflux/fast-mode.html) |
+| Resolve 429, 503, review, or balance errors | [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html) |
+| Connect agents with CC Switch | [CC Switch Setup](/en/docs/agents/cc-switch.html) |
+| Understand cost, quota, RPM, and concurrency | [Billing Guide](/en/docs/tokenflux/billing.html) |
 | Check ordinary invite access | [Affiliate Rebates](/en/docs/tokenflux/referral.html) |
 | Read the complete campus program rules | [Campus Ambassador Program Terms and Notice](/en/docs/tokenflux/campus-ambassador.html) |
 | Read the full user agreement | [User Agreement — Official Chinese Text](/en/docs/tos/service-terms.html) |

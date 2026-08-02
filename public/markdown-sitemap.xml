@@ -7,6 +7,7 @@
   <url><loc>http://localhost:3000/docs/tokenflux/endpoints.md</loc></url>
   <url><loc>http://localhost:3000/docs/tokenflux/composite-key.md</loc></url>
   <url><loc>http://localhost:3000/docs/tokenflux/fast-mode.md</loc></url>
+  <url><loc>http://localhost:3000/docs/tokenflux/error-codes.md</loc></url>
   <url><loc>http://localhost:3000/docs/tokenflux/billing.md</loc></url>
   <url><loc>http://localhost:3000/docs/tokenflux/invoice.md</loc></url>
   <url><loc>http://localhost:3000/docs/tokenflux/team.md</loc></url>
@@ -33,6 +34,7 @@
   <url><loc>http://localhost:3000/en/docs/tokenflux/endpoints.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tokenflux/composite-key.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tokenflux/fast-mode.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/tokenflux/error-codes.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tokenflux/billing.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tokenflux/invoice.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/tokenflux/team.md</loc></url>

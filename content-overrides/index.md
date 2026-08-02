@@ -11,6 +11,9 @@
 | 确认 Base URL 与协议 | [API 端点与协议](/docs/tokenflux/endpoints.html) |
 | 接入 Codex、Claude Code 或 OpenCode | [Coding 工具](/docs/agents/codex.html) |
 | 查询费用、调用和可用性 | [监控与使用记录](/docs/tokenflux/fast-mode.html) |
+| 处理 429、503、审核或余额错误 | [错误码与处理](/docs/tokenflux/error-codes.html) |
+| 使用 CC Switch 快速接入 Agent | [CC Switch 接入](/docs/agents/cc-switch.html) |
+| 了解费用、额度、RPM 与并发 | [计费说明](/docs/tokenflux/billing.html) |
 | 查看普通邀请权限 | [邀请返利](/docs/tokenflux/referral.html) |
 | 阅读校园大使完整规则 | [校园大使计划](/docs/tokenflux/campus-ambassador.html) |
 | 阅读用户协议全文 | [Oproxy 用户服务协议](/docs/tos/service-terms.html) |

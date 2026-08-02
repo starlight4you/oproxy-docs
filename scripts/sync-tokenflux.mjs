@@ -13,6 +13,7 @@ const preferredOrder = [
   "docs/tokenflux/endpoints.md",
   "docs/tokenflux/composite-key.md",
   "docs/tokenflux/fast-mode.md",
+  "docs/tokenflux/error-codes.md",
   "docs/tokenflux/billing.md",
   "docs/tokenflux/invoice.md",
   "docs/tokenflux/team.md",
@@ -44,7 +45,7 @@ const relativePaths = [
 function sectionFor(relativePath, lang) {
   const bare = lang === "en" ? relativePath.replace(/^en\//, "") : relativePath;
   if (bare === "docs/quickstart.md" || bare === "docs/faq.md") return "docs";
-  if (/^docs\/tokenflux\/(create-apikey|endpoints|composite-key|fast-mode)\.md$/.test(bare)) return "apiKey";
+  if (/^docs\/tokenflux\/(create-apikey|endpoints|composite-key|fast-mode|error-codes)\.md$/.test(bare)) return "apiKey";
   if (bare.startsWith("docs/tokenflux/")) return "tokenflux";
   if (bare.startsWith("docs/agents/")) return "agents";
   if (bare.startsWith("docs/chatbot/")) return "chatbot";

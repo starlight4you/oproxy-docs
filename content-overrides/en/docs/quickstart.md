@@ -79,4 +79,4 @@ The console lists **Chat / Agent Management** under the app center. If **Open ch
 
 ## Verify
 
-Send a minimal request, then open **Usage** to confirm the model, endpoint, tokens, cost, latency, and User-Agent. For failures, check key status, group, Base URL, balance or subscription, key limits, and model monitoring.
+Send a minimal request, then open **Usage** to confirm the model, endpoint, tokens, cost, latency, and User-Agent. For failures, check key status, group, Base URL, balance or subscription, key limits, and model monitoring. Use [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html) for `429`, `503`, review, group, and balance issues.
