@@ -18,8 +18,13 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description,
     icons: {
-      icon: "/logo.svg",
-      shortcut: "/logo.svg",
+      icon: [
+        { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+        { url: "/favicon-192x192.png", type: "image/png", sizes: "192x192" },
+        { url: "/logo.svg", type: "image/svg+xml" },
+      ],
+      shortcut: "/favicon-32x32.png",
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
     openGraph: {
       title: "Oproxy Docs",
