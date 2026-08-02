@@ -29,7 +29,7 @@ The formula is an estimate. Units, cache rules, group multipliers, and plan disc
 
 ## Recharge
 
-Open **Recharge / Subscribe**, switch to **Recharge**, choose or enter an amount, select Alipay or WeChat Pay, and check the account and total. The page shows a CNY 5 minimum; follow the live payment-page notice if the limit changes. Payment begins only after selecting **Confirm payment**.
+Open **Recharge / Subscribe**, switch to **Recharge**, choose or enter an amount, select Alipay or WeChat Pay, and check the account and total. Payment begins only after selecting **Confirm payment**.
 
 ![Recharge amount, payment method, and confirmation controls](/images/oproxy-steps/recharge-controls.png)
 
