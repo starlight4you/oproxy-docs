@@ -1,6 +1,6 @@
 # Oproxy Documentation
 
-This local Oproxy help center covers registration, API keys, endpoints, models, billing, monitoring, coding tools, chat clients, account security, and platform rules.
+This local Oproxy help center covers registration, API keys, endpoints, models, billing, monitoring, coding tools, chat/agents, account security, and platform rules.
 
 ## Start here
 

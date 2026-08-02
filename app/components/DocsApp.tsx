@@ -36,7 +36,7 @@ const sectionLabels = {
     apiKey: "API 与控制台",
     tokenflux: "账户与计费",
     agents: "Coding 工具",
-    chatbot: "聊天客户端",
+    chatbot: "聊天/智能体",
     terms: "规则与支持",
   },
   en: {
@@ -44,7 +44,7 @@ const sectionLabels = {
     apiKey: "API & Console",
     tokenflux: "Account & Billing",
     agents: "Coding tools",
-    chatbot: "Chat clients",
+    chatbot: "Chat / Agents",
     terms: "Rules & Support",
   },
 };
