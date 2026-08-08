@@ -87,7 +87,7 @@ CC Switch 的普通 Base URL 会由应用补充请求路径。只有 Provider �
 
 ### 模型不存在
 
-确认模型 ID 与 Oproxy 模型定价页完全一致，并检查 Key 分组是否包含该模型。参见 [错误码与处理](/docs/tokenflux/error-codes.html)。
+确认模型 ID 与 Oproxy 模型定价页完全一致，并检查 Key 分组是否包含该模型。参见 [错误码与处理](/docs/oproxy/error-codes.html)。
 
 ### 恢复官方登录
 

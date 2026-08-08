@@ -34,7 +34,7 @@ const sectionLabels = {
   zh: {
     docs: "开始",
     apiKey: "API 与控制台",
-    tokenflux: "账户与计费",
+    oproxy: "账户与计费",
     agents: "Coding 工具",
     chatbot: "聊天/智能体",
     terms: "规则与支持",
@@ -42,14 +42,14 @@ const sectionLabels = {
   en: {
     docs: "Get started",
     apiKey: "API & Console",
-    tokenflux: "Account & Billing",
+    oproxy: "Account & Billing",
     agents: "Coding tools",
     chatbot: "Chat / Agents",
     terms: "Rules & Support",
   },
 };
 
-const sectionOrder = ["docs", "apiKey", "tokenflux", "agents", "chatbot", "terms"];
+const sectionOrder = ["docs", "apiKey", "oproxy", "agents", "chatbot", "terms"];
 
 function stripInlineMarkdown(text: string) {
   return text

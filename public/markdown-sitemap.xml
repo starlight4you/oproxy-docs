@@ -3,16 +3,16 @@
   <url><loc>http://localhost:3000/index.md</loc></url>
   <url><loc>http://localhost:3000/docs/quickstart.md</loc></url>
   <url><loc>http://localhost:3000/docs/faq.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/create-apikey.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/endpoints.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/composite-key.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/fast-mode.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/error-codes.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/billing.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/invoice.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/team.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/referral.md</loc></url>
-  <url><loc>http://localhost:3000/docs/tokenflux/campus-ambassador.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/create-apikey.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/endpoints.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/composite-key.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/fast-mode.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/error-codes.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/billing.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/invoice.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/team.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/referral.md</loc></url>
+  <url><loc>http://localhost:3000/docs/oproxy/campus-ambassador.md</loc></url>
   <url><loc>http://localhost:3000/docs/agents/cc-switch.md</loc></url>
   <url><loc>http://localhost:3000/docs/agents/claude-code.md</loc></url>
   <url><loc>http://localhost:3000/docs/agents/codex.md</loc></url>
@@ -26,16 +26,16 @@
   <url><loc>http://localhost:3000/en.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/quickstart.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/faq.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/create-apikey.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/endpoints.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/composite-key.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/fast-mode.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/error-codes.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/billing.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/invoice.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/team.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/referral.md</loc></url>
-  <url><loc>http://localhost:3000/en/docs/tokenflux/campus-ambassador.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/create-apikey.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/endpoints.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/composite-key.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/fast-mode.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/error-codes.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/billing.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/invoice.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/team.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/referral.md</loc></url>
+  <url><loc>http://localhost:3000/en/docs/oproxy/campus-ambassador.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/agents/cc-switch.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/agents/claude-code.md</loc></url>
   <url><loc>http://localhost:3000/en/docs/agents/codex.md</loc></url>

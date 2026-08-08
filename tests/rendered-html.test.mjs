@@ -64,15 +64,15 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
 
   const visualGuides = [
     "docs/quickstart.md",
-    "docs/tokenflux/create-apikey.md",
-    "docs/tokenflux/endpoints.md",
-    "docs/tokenflux/composite-key.md",
-    "docs/tokenflux/fast-mode.md",
-    "docs/tokenflux/error-codes.md",
-    "docs/tokenflux/billing.md",
-    "docs/tokenflux/invoice.md",
-    "docs/tokenflux/team.md",
-    "docs/tokenflux/referral.md",
+    "docs/oproxy/create-apikey.md",
+    "docs/oproxy/endpoints.md",
+    "docs/oproxy/composite-key.md",
+    "docs/oproxy/fast-mode.md",
+    "docs/oproxy/error-codes.md",
+    "docs/oproxy/billing.md",
+    "docs/oproxy/invoice.md",
+    "docs/oproxy/team.md",
+    "docs/oproxy/referral.md",
     "docs/agents/cc-switch.md",
     "docs/agents/claude-code.md",
     "docs/agents/codex.md",
@@ -104,15 +104,15 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
     assert.ok(legalText.length > 8_000, `${legalPage} should contain the full official text`);
   }
 
-  const campusTerms = await readFile(new URL("docs/tokenflux/campus-ambassador.md", publicRoot), "utf8");
+  const campusTerms = await readFile(new URL("docs/oproxy/campus-ambassador.md", publicRoot), "utf8");
   assert.match(campusTerms, /更新日期：2026-07-30/);
   assert.match(campusTerms, /校园大使计划不包含多级返现/);
   assert.doesNotMatch(campusTerms, /^# 邀请返利/m);
 
   const [errorGuide, ccSwitchGuide, billingGuide] = await Promise.all([
-    readFile(new URL("docs/tokenflux/error-codes.md", publicRoot), "utf8"),
+    readFile(new URL("docs/oproxy/error-codes.md", publicRoot), "utf8"),
     readFile(new URL("docs/agents/cc-switch.md", publicRoot), "utf8"),
-    readFile(new URL("docs/tokenflux/billing.md", publicRoot), "utf8"),
+    readFile(new URL("docs/oproxy/billing.md", publicRoot), "utf8"),
   ]);
   assert.match(errorGuide, /429[\s\S]*RPM/);
   assert.match(errorGuide, /503[\s\S]*模型监控/);
@@ -130,7 +130,7 @@ test("keeps the mirror reproducible and removes starter artifacts", async () => 
     readFile(new URL("package.json", projectRoot), "utf8"),
     readFile(new URL("app/page.tsx", projectRoot), "utf8"),
     readFile(new URL("app/layout.tsx", projectRoot), "utf8"),
-    readFile(new URL("scripts/sync-tokenflux.mjs", projectRoot), "utf8"),
+    readFile(new URL("scripts/sync-oproxy.mjs", projectRoot), "utf8"),
   ]);
 
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);

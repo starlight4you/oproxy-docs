@@ -51,4 +51,4 @@ API Key 用于客户端和应用调用 Oproxy。不要在文档、截图、聊�
 
 *图：API 密钥页提供两个端点的复制和测速入口。*
 
-页面提供复制和测速入口。具体是否追加 `/v1` 取决于客户端，参见 [API 端点与协议](/docs/tokenflux/endpoints.html)。
+页面提供复制和测速入口。具体是否追加 `/v1` 取决于客户端，参见 [API 端点与协议](/docs/oproxy/endpoints.html)。

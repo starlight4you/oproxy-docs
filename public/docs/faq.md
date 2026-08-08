@@ -21,7 +21,7 @@
 
 ## 为什么模型请求失败？
 
-依次检查：Key 是否完整且活跃、分组是否支持该模型、Base URL 是否正确、余额或订阅额度是否足够、Key 是否受额度/有效期/IP/速率限制，以及 [模型监控](https://oproxy.world/monitor) 是否显示异常。具体处理参见 [错误码与处理](/docs/tokenflux/error-codes.html)。
+依次检查：Key 是否完整且活跃、分组是否支持该模型、Base URL 是否正确、余额或订阅额度是否足够、Key 是否受额度/有效期/IP/速率限制，以及 [模型监控](https://oproxy.world/monitor) 是否显示异常。具体处理参见 [错误码与处理](/docs/oproxy/error-codes.html)。
 
 ## 429 和 503 有什么区别？
 
@@ -33,7 +33,7 @@
 
 ## 订阅和余额如何计费？
 
-订阅提供按日、周、月限制的折扣额度；余额用于按量计费。控制台同时显示实际费用与标准费用。Token、缓存、图片、RPM 和并发的区别参见 [计费、充值与订阅](/docs/tokenflux/billing.html)。
+订阅提供按日、周、月限制的折扣额度；余额用于按量计费。控制台同时显示实际费用与标准费用。Token、缓存、图片、RPM 和并发的区别参见 [计费、充值与订阅](/docs/oproxy/billing.html)。
 
 ## 能否退款？
 

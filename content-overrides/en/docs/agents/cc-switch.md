@@ -78,7 +78,7 @@ You can also switch quickly from the CC Switch system-tray menu.
 ## Troubleshooting and safety
 
 - If the old provider is still active, fully restart the agent and terminal, then check for environment variables that override the written configuration.
-- For model-not-found errors, verify the exact model ID and key group. See [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html).
+- For model-not-found errors, verify the exact model ID and key group. See [Error Codes and Resolutions](/en/docs/oproxy/error-codes.html).
 - To restore official access, enable the agent's **Official Login** provider and restart the client.
 - Database-backup import overwrites the current CC Switch database; export a backup first.
 - If you need separate limits or revocation, use different Oproxy keys for different agents. Keep exports out of public repositories, and disable a leaked key before replacing the provider configuration.

@@ -28,4 +28,4 @@
 
 申请前请阅读校园大使计划的奖励规则、审核要求和活动边界。
 
-[查看校园大使计划](/docs/tokenflux/campus-ambassador.html)
+[查看校园大使计划](/docs/oproxy/campus-ambassador.html)

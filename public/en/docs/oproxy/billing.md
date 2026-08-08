@@ -50,7 +50,7 @@ Plans show a 30-day price, discount, multiplier, concurrency/RPM boosts, and dai
 - Concurrency limits the number of simultaneous requests and is separate from account balance.
 - A concurrency add-on increases concurrency or RPM capacity; it does not replace model usage charges.
 
-For `429`, reduce concurrency and check the key's own rate limit first. If normal traffic repeatedly reaches the plan's RPM or concurrency ceiling, buy an add-on or upgrade the plan. See [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html).
+For `429`, reduce concurrency and check the key's own rate limit first. If normal traffic repeatedly reaches the plan's RPM or concurrency ceiling, buy an add-on or upgrade the plan. See [Error Codes and Resolutions](/en/docs/oproxy/error-codes.html).
 
 ## Standard and actual cost
 

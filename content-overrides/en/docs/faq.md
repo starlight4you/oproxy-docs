@@ -18,7 +18,7 @@ Use `https://api.oproxy.world` for Codex Responses and Claude Code, and usually 
 
 ## Why does a request fail?
 
-Check the complete key, active status, group/model match, Base URL, balance or subscription, key expiration/IP/rate/spending limits, and [model monitoring](https://oproxy.world/monitor). See [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html) for detailed handling.
+Check the complete key, active status, group/model match, Base URL, balance or subscription, key expiration/IP/rate/spending limits, and [model monitoring](https://oproxy.world/monitor). See [Error Codes and Resolutions](/en/docs/oproxy/error-codes.html) for detailed handling.
 
 ## What is the difference between 429 and 503?
 

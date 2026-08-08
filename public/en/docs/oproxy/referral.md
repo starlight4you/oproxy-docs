@@ -28,4 +28,4 @@ Campus ambassador access is available only for supported school email accounts.
 
 Please read the reward rules, review requirements, and program boundaries before applying.
 
-[View the Campus Ambassador Program Terms and Notice](/en/docs/tokenflux/campus-ambassador.html)
+[View the Campus Ambassador Program Terms and Notice](/en/docs/oproxy/campus-ambassador.html)

@@ -9,16 +9,16 @@ const overrideRoot = path.join(projectRoot, "content-overrides");
 const preferredOrder = [
   "docs/quickstart.md",
   "docs/faq.md",
-  "docs/tokenflux/create-apikey.md",
-  "docs/tokenflux/endpoints.md",
-  "docs/tokenflux/composite-key.md",
-  "docs/tokenflux/fast-mode.md",
-  "docs/tokenflux/error-codes.md",
-  "docs/tokenflux/billing.md",
-  "docs/tokenflux/invoice.md",
-  "docs/tokenflux/team.md",
-  "docs/tokenflux/referral.md",
-  "docs/tokenflux/campus-ambassador.md",
+  "docs/oproxy/create-apikey.md",
+  "docs/oproxy/endpoints.md",
+  "docs/oproxy/composite-key.md",
+  "docs/oproxy/fast-mode.md",
+  "docs/oproxy/error-codes.md",
+  "docs/oproxy/billing.md",
+  "docs/oproxy/invoice.md",
+  "docs/oproxy/team.md",
+  "docs/oproxy/referral.md",
+  "docs/oproxy/campus-ambassador.md",
   "docs/agents/cc-switch.md",
   "docs/agents/claude-code.md",
   "docs/agents/codex.md",
@@ -41,8 +41,8 @@ const relativePaths = [
 function sectionFor(relativePath, lang) {
   const bare = lang === "en" ? relativePath.replace(/^en\//, "") : relativePath;
   if (bare === "docs/quickstart.md" || bare === "docs/faq.md") return "docs";
-  if (/^docs\/tokenflux\/(create-apikey|endpoints|composite-key|fast-mode|error-codes)\.md$/.test(bare)) return "apiKey";
-  if (bare.startsWith("docs/tokenflux/")) return "tokenflux";
+  if (/^docs\/oproxy\/(create-apikey|endpoints|composite-key|fast-mode|error-codes)\.md$/.test(bare)) return "apiKey";
+  if (bare.startsWith("docs/oproxy/")) return "oproxy";
   if (bare.startsWith("docs/agents/")) return "agents";
   if (bare.startsWith("docs/chatbot/")) return "chatbot";
   if (bare.startsWith("docs/tos/")) return "terms";

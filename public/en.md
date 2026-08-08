@@ -7,15 +7,15 @@ Welcome to Oproxy. Use this guide to create your account and API key, connect po
 | Goal | Page |
 | --- | --- |
 | First-time setup | [Quickstart](/en/docs/quickstart.html) |
-| Create and protect an API key | [Create an API Key](/en/docs/tokenflux/create-apikey.html) |
-| Choose the right Base URL | [API Endpoints and Protocols](/en/docs/tokenflux/endpoints.html) |
+| Create and protect an API key | [Create an API Key](/en/docs/oproxy/create-apikey.html) |
+| Choose the right Base URL | [API Endpoints and Protocols](/en/docs/oproxy/endpoints.html) |
 | Connect Codex, Claude Code, or OpenCode | [Coding tools](/en/docs/agents/codex.html) |
-| Review usage and availability | [Dashboard, Monitoring, and Usage](/en/docs/tokenflux/fast-mode.html) |
-| Resolve 429, 503, review, or balance errors | [Error Codes and Resolutions](/en/docs/tokenflux/error-codes.html) |
+| Review usage and availability | [Dashboard, Monitoring, and Usage](/en/docs/oproxy/fast-mode.html) |
+| Resolve 429, 503, review, or balance errors | [Error Codes and Resolutions](/en/docs/oproxy/error-codes.html) |
 | Connect agents with CC Switch | [CC Switch Setup](/en/docs/agents/cc-switch.html) |
-| Understand cost, quota, RPM, and concurrency | [Billing Guide](/en/docs/tokenflux/billing.html) |
-| Check ordinary invite access | [Affiliate Rebates](/en/docs/tokenflux/referral.html) |
-| Read the complete campus program rules | [Campus Ambassador Program Terms and Notice](/en/docs/tokenflux/campus-ambassador.html) |
+| Understand cost, quota, RPM, and concurrency | [Billing Guide](/en/docs/oproxy/billing.html) |
+| Check ordinary invite access | [Affiliate Rebates](/en/docs/oproxy/referral.html) |
+| Read the complete campus program rules | [Campus Ambassador Program Terms and Notice](/en/docs/oproxy/campus-ambassador.html) |
 | Read the full user agreement | [User Agreement — Official Chinese Text](/en/docs/tos/service-terms.html) |
 | Review privacy and data transfers | [Privacy Policy — Official Chinese Text](/en/docs/tos/usage-policy.html) |
 | Understand cross-border transfers | [Cross-Border Transfer Notice](/en/docs/tos/transmission.html) |
