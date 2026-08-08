@@ -1,18 +1,18 @@
 # 密钥分组与模型访问
 
-Oproxy 的 Key 通过 **分组** 决定可用模型、倍率和计费渠道。不要假设一个 Key 能访问全部模型。
+Oproxy 的 Key 通过 **分组** 决定可用模型、倍率和计费渠道。**按量计费** 分组可访问平台全部模型；其他分组仍只提供各自支持的模型和渠道。
 
 ## 可用分组
 
 创建密钥时可选择以下分组，实际列表会随账户和服务配置变化：
 
-- **按量计费**：OpenAI、Anthropic、Google、DeepSeek 聚合分组。
+- **按量计费**：可访问平台全部模型的按量计费分组。需要在同一个 Key 中使用多个提供商或全部模型时，选择此分组。
 - **OpenAI-按量计费**：更高并发/RPM，并支持更多推理场景。
 - **Claude**：Claude 按量计费渠道。
 - **Gemini**：Gemini 渠道。
 - **DeepSeek**：DeepSeek 官方 API 渠道。
 
-分组均显示倍率；具体名称、模型和权限以登录后的 **模型定价** 为准。
+分组均显示倍率；具体名称、模型和权限以登录后的 [**模型定价**](https://oproxy.world/available-channels) 为准。
 
 ![模型定价页面，展示模型卡片和可用分组](/images/oproxy-steps/model-pricing.png)
 
@@ -22,10 +22,11 @@ Oproxy 的 Key 通过 **分组** 决定可用模型、倍率和计费渠道。�
 
 | 目标 | 建议 |
 | --- | --- |
-| Codex / OpenAI Responses | 选择支持目标 GPT 模型的 OpenAI 分组 |
+| 需要访问全部模型，或在同一个 Key 中混用多个提供商 | 选择按量计费分组 |
+| Codex / OpenAI Responses | 选择按量计费分组；如需特定 OpenAI 渠道或更高并发/RPM，可选择支持目标 GPT 模型的 OpenAI 分组 |
 | Claude Code | 选择 Claude 分组 |
-| OpenCode 混合模型 | 为 OpenAI 与 Claude 分别建 Key 或 Provider |
-| Gemini / DeepSeek | 选择对应专用分组，或确认聚合分组已列出模型 |
+| OpenCode 混合模型 | 选择按量计费分组，或按提供商分别建 Key / Provider |
+| Gemini / DeepSeek | 选择按量计费分组，或对应专用分组 |
 
 ## 更换分组
 

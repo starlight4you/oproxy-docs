@@ -105,8 +105,11 @@ test("contains the complete bilingual Oproxy Markdown collection", async () => {
   }
 
   const campusTerms = await readFile(new URL("docs/oproxy/campus-ambassador.md", publicRoot), "utf8");
-  assert.match(campusTerms, /更新日期：2026-07-30/);
+  assert.doesNotMatch(campusTerms, /更新日期：2026-07-30/);
+  assert.match(campusTerms, /校园大使计划面向平台用户开放申请/);
+  assert.match(campusTerms, /账号邮箱域名绑定/);
   assert.match(campusTerms, /校园大使计划不包含多级返现/);
+  assert.match(campusTerms, /## 重要提示/);
   assert.doesNotMatch(campusTerms, /^# 邀请返利/m);
 
   const [errorGuide, ccSwitchGuide, billingGuide] = await Promise.all([
